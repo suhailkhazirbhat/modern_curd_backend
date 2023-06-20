@@ -143,6 +143,7 @@ exports.userstatus = async (req, res) => {
 
 // export user
 exports.userExport = async (req, res) => {
+    console.log(users)
     try {
         const usersdata = await users.find();
 
