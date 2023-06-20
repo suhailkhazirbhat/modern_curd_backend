@@ -14,6 +14,4 @@ app.use("/files",express.static("./public/files"));
 
 app.use(router);
 
-app.listen(PORT,()=>{
-    console.log(`Server start at port no ${PORT}`)
-})
+module.exports = app;
